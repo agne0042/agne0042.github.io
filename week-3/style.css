@@ -3,6 +3,10 @@
     height: auto;
 }
 
+h2 {
+  font-size: 40px;
+}
+
 .apply-now {
     padding: 30px;
     background-color: goldenrod;
@@ -10,7 +14,7 @@
     margin: 0px auto;
   }
 
-  .apply-now-input {
+  .apply-now-placeholder {
     padding: 10px;
     width: 100%;
   }
@@ -18,3 +22,4 @@
   .color-red {
       color: red;
   }
+
