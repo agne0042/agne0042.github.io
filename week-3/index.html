@@ -19,22 +19,34 @@
 
   <img class="background-image" src="images/scooter.svg" alt="scooter">
 
-  <form class="apply-now">
+  <form id="apply-now" class="apply-now">
     <h2>Apply Now</h2>
     <h3>Enter your info below to get started.</h3>
     <input type="text" name="fname" placeholder="First name">
     <input type="text" name="fname" placeholder="Last name">
     <input type="text" name="fname" placeholder="Email address">
     <input type="text" name="fname" placeholder="Phone number">
-    
+
     <div id="already-applied" class="already-applied">
       <input type="checkbox" id="agree" name="terms" value="agree">
       <label for="agree">I agree to dash terms</label>
     </div>
-    <button type="submit">DRIVE WITH US</button>
+    <button id="drive-with-us" type="submit">DRIVE WITH US</button>
       <p>Already applied?</p>
+      <div id="application-status" class="application-status">
       <p class="color-red">Check your application status here</p>
+    </div>
   </form>
+
+  <footer>
+    <h4>See how much you can earn with Dash.</h4>
+    <p>how many hours do you want to work wuth us this week?</p>
+    <form id="hours-city" class="hours-city">
+      <input type="text" name="fname" placeholder="Hours">
+      <input tyoe="text" name="fname" placeholder="City">
+      <button id="calculate" type="submit">CALCULATE</button>
+    </form>
+  </footer>
 
 </body>
 

@@ -1,25 +1,52 @@
 .background-image {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 h2 {
   font-size: 40px;
 }
 
+/* border added to be able to see changes to form, TAKE OUT when ready for 
+final version */
 .apply-now {
-    padding: 30px;
-    background-color: goldenrod;
-    width: 400px;
-    margin: 0px auto;
-  }
+  padding: 30px;
+  background-color: white;
+  border: solid black;
+  width: 400px;
+  margin: 0px auto;
+  border-radius: 12px;
+}
 
-  .apply-now-placeholder {
-    padding: 10px;
-    width: 100%;
-  }
+.apply-now-placeholder {
+  padding: 10px;
+  width: 100%;
+}
 
-  .color-red {
-      color: red;
-  }
+#drive-with-us {
+  background-color: #57eeab;
+  border-radius: 12px;
+  color: #333131;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 300px;
+}
 
+.color-red {
+  color: red;
+}
+
+footer {
+  text-align: left;
+  background-color: #fffd8c;
+  width: auto;
+  height: 150px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
