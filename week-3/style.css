@@ -27,14 +27,14 @@ final version */
   background-color: #57eeab;
   border-radius: 12px;
   color: #333131;
-  padding: 15px 32px;
+  padding: 8px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 30px;
   margin: 4px 2px;
   cursor: pointer;
-  width: 300px;
+  width: 350px;
 }
 
 .color-red {
