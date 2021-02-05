@@ -18,9 +18,9 @@ final version */
   border-radius: 12px;
 }
 
-.apply-now-placeholder {
-  padding: 10px;
-  width: 100%;
+::placeholder {
+  padding: 30px;
+  text-align: left;
 }
 
 #drive-with-us {
@@ -49,4 +49,18 @@ footer {
   padding-left: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+#calculate {
+  background-color: #ff8480;
+  border-radius: 12px;
+  color: #f7f7ff;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 150px;
 }
