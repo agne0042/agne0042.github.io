@@ -1,6 +1,16 @@
-.background-image {
-  max-width: 100%;
+.grid {
+  display: grid;
+  grid-template-columns:50% 50%;
+}
+
+
+.wrapper {
+  background-image: url(../desktop/img/scooter.svg);
+  background-repeat: no-repeat;
+  width: 100%; 
   height: auto;
+  margin: auto;
+  background-position: center;
 }
 
 h2 {
@@ -15,11 +25,11 @@ final version */
   border: solid black;
   width: 400px;
   margin: 0px auto;
+  margin-bottom: 2rem;
   border-radius: 12px;
 }
 
 ::placeholder {
-  padding: 30px;
   text-align: left;
 }
 
@@ -42,13 +52,14 @@ final version */
 }
 
 footer {
-  text-align: left;
   background-color: #fffd8c;
   width: auto;
   height: 150px;
   padding-left: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 #calculate {
@@ -63,4 +74,13 @@ footer {
   margin: 4px 2px;
   cursor: pointer;
   width: 150px;
+}
+
+.social-media {
+  margin-top: 4rem;
+  margin-left: 10rem;
+}
+
+.insta, .twitter, .facebook .link {
+  display: inline;
 }
