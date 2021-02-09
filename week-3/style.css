@@ -1,24 +1,25 @@
 .grid {
   display: grid;
-  grid-template-columns:50% 50%;
+  grid-template-columns: 50% 50%;
 }
 
-
+/* background image used in css to add content overtop */
 .wrapper {
-  background-image: url(../desktop/img/scooter.svg);
-  background-repeat: no-repeat;
-  width: 100%; 
-  height: auto;
-  margin: auto;
-  background-position: center;
+  background-image: url(..//week-3/images/scooter.svg);
+  height: 800px;
+  background-position: no-repeat;
+  background-size: cover;
+  position:relative;
 }
 
-h2 {
+.h1 {
+}
+
+.h2 {
   font-size: 40px;
 }
 
-/* border added to be able to see changes to form, TAKE OUT when ready for 
-final version */
+/* box-shadow to create shadow effect around form */
 .apply-now {
   padding: 30px;
   background-color: #ffffff;
@@ -49,6 +50,7 @@ final version */
   width: 350px;
 }
 
+/* target tag to change part of paragraph text to be red */
 .color-red {
   color: red;
 }
@@ -83,6 +85,7 @@ footer {
   margin-left: 10rem;
 }
 
+/* used display flex to have all images placed in a row */
 .row {
   display: flex;
 }
@@ -93,7 +96,8 @@ footer {
   padding-top: 50px;
 }
 
-@media screen and (max-width: 500px) {
+/* used all tag to show media is being used for all screens */
+@media all and (max-width: 500px) {
   .column {
     width: 100%;
   }
