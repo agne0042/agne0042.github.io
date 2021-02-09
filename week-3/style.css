@@ -21,16 +21,18 @@ h2 {
 final version */
 .apply-now {
   padding: 30px;
-  background-color: white;
-  border: solid black;
-  width: 400px;
-  margin: 0px auto;
+  background-color: #ffffff;
+  width: 350px;
+  margin: 8px;
   margin-bottom: 2rem;
   border-radius: 12px;
+  margin: 0px auto;
+  box-shadow: 15px 15px 25px grey;
 }
 
 ::placeholder {
-  text-align: left;
+  background-color: #f4f4f5;
+  color: #9b9b9b;
 }
 
 #drive-with-us {
@@ -81,6 +83,18 @@ footer {
   margin-left: 10rem;
 }
 
-.insta, .twitter, .facebook .link {
-  display: inline;
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 10%;
+  padding: 2px;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
 }
