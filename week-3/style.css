@@ -1,4 +1,8 @@
-.grid {
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.grid  {
   display: grid;
   grid-template-columns: 50% 50%;
 }
@@ -6,13 +10,10 @@
 /* background image used in css to add content overtop */
 .wrapper {
   background-image: url(..//week-3/images/scooter.svg);
-  height: 800px;
+  height: 80vh;
   background-position: no-repeat;
   background-size: cover;
-  position:relative;
-}
-
-.h1 {
+  position: relative;
 }
 
 .h2 {
@@ -20,7 +21,9 @@
 }
 
 /* box-shadow to create shadow effect around form */
-.apply-now {
+#apply-now-contact {
+  display: grid;
+  grid-template-columns: 50% 50%;
   padding: 30px;
   background-color: #ffffff;
   width: 350px;
@@ -31,6 +34,7 @@
   box-shadow: 15px 15px 25px grey;
 }
 
+/* placholder background color changed to light grey, text color changed to dark grey */
 ::placeholder {
   background-color: #f4f4f5;
   color: #9b9b9b;
@@ -55,6 +59,7 @@
   color: red;
 }
 
+/* 20vh view port high to make up the rest of the page where the background image does not fall*/
 footer {
   background-color: #fffd8c;
   width: auto;
@@ -64,6 +69,7 @@ footer {
   padding-bottom: 10px;
   display: grid;
   grid-template-columns: 50% 50%;
+  height: 20vh;
 }
 
 #calculate {
@@ -88,17 +94,22 @@ footer {
 /* used display flex to have all images placed in a row */
 .row {
   display: flex;
+  justify-content: flex-end;
 }
 
 .column {
-  flex: 10%;
   padding: 2px;
   padding-top: 50px;
+  margin: 0 1rem;
 }
 
 /* used all tag to show media is being used for all screens */
 @media all and (max-width: 500px) {
   .column {
+    width: 100%;
+  }
+
+  .wrapper {
     width: 100%;
   }
 }
