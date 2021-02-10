@@ -2,6 +2,7 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
+/* background image in body to not interfere with grid */
 body {
   background-image: url(../week-3/images/scooter.svg);
   height: 80vh;
@@ -12,9 +13,6 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
 }
-
-/* background image used in css to add content overtop */
-.main-content {}
 
 .h2 {
   font-size: 40px;
