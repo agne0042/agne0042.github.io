@@ -2,18 +2,19 @@ html {
   font-family: 'Montserrat', sans-serif;
 }
 
-.grid  {
+body {
+  background-image: url(../week-3/images/scooter.svg);
+  height: 80vh;
+  background-size: cover;
+}
+
+.grid {
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
 /* background image used in css to add content overtop */
-.wrapper {
-  background-image: url(..//week-3/images/scooter.svg);
-  height: 80vh;
-  background-size: cover;
-  position: relative;
-}
+.main-content {}
 
 .h2 {
   font-size: 40px;
@@ -86,6 +87,7 @@ border-radius set to 12px to have curved border */
   cursor: pointer;
   width: 150px;
 }
+
 /* margin top to bring images to center of footer
 margin left to add padding between images */
 .social-media {

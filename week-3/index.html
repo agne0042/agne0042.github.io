@@ -11,30 +11,38 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    <!-- added dash logo image into header to keep with height and width to have it in the proper place on the webpage-->
-    <header><img class="dash-logo" src="images/logo.png" alt="Dash Logo" width="100" height="100"></header>
-    <!-- div class grid to target content in CSS to have proper position -->
-    <div class="grid">
-      <div class="text-content">
-        <section id="your-own-boss" class="your-own-boss">
-          <h1 style="font-size: xx-large;"><b>Want to be your own boss?</b></h1>
-          <p>Start today and make up to $30/hr driving your own vehicle with Dash!</p>
-        </section>
+
+  <div style="display:flex;">
+    <!--start flex wrapper-->
+
+
+    <div class="main-content">
+      <!-- added dash logo image into header to keep with height and width to have it in the proper place on the webpage-->
+      <header><img class="dash-logo" src="images/logo.png" alt="Dash Logo" width="100" height="100"></header>
+      <!-- div class grid to target content in CSS to have proper position -->
+      <div class="grid">
+        <div class="text-content">
+          <section id="your-own-boss" class="your-own-boss">
+            <h1 style="font-size: xx-large;"><b>Want to be your own boss?</b></h1>
+            <p>Start today and make up to $30/hr driving your own vehicle with Dash!</p>
+          </section>
+        </div>
       </div>
     </div>
-  </div>
-  <section id="apply-now-contact" class="apply-now-contact">
-    <form>
+
+
+
+    <section id="apply-now-contact" class="apply-now-contact">
       <div id="apply-now" class="apply-now">
-        <h2>Apply Now</h2>
-        <h3>Enter your info below to get started.</h3>
-        <input type="text" name="fname" placeholder="First name">
-        <input type="text" name="fname" placeholder="Last name">
-        <input type="text" name="fname" placeholder="Email address">
-        <input type="text" name="fname" placeholder="Phone number">
-      </form>
-  
+        <form>
+          <h2>Apply Now</h2>
+          <h3>Enter your info below to get started.</h3>
+          <input type="text" name="fname" placeholder="First name">
+          <input type="text" name="fname" placeholder="Last name">
+          <input type="text" name="fname" placeholder="Email address">
+          <input type="text" name="fname" placeholder="Phone number">
+        </form>
+
         <div id="already-applied" class="already-applied">
           <input type="checkbox" id="agree" name="terms" value="agree">
           <label for="agree">I agree to dash terms</label>
@@ -44,8 +52,10 @@
         <div id="application-status" class="application-status">
           <p class="color-red">Check your application status here</p>
         </div>
-      </section>
-      </div>
+    </section>
+
+
+  </div><!-- end flex wrapper -->
   <br><br>
 
   <!-- used placeholder tag to have text inside text box-->
