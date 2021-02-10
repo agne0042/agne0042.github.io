@@ -115,4 +115,8 @@ margin left to add padding between images */
   .wrapper {
     width: 100%;
   }
+
+  #apply-now-contact {
+    width: 100%;
+  }
 }
