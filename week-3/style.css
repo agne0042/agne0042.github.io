@@ -11,7 +11,6 @@ html {
 .wrapper {
   background-image: url(..//week-3/images/scooter.svg);
   height: 80vh;
-  background-position: no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -117,6 +116,10 @@ margin left to add padding between images */
   }
 
   #apply-now-contact {
+    width: 100%;
+  }
+
+  .footer-text {
     width: 100%;
   }
 }
