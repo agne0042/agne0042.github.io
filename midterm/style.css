@@ -4,7 +4,7 @@ html {
 
 /* IMPORTANT remove background color once <header> has background color */
 .icon {
-    color:#ffffff;
+    color: #ffffff;
     font-size: medium;
     background-color: blue;
 }
@@ -29,4 +29,46 @@ html {
     margin-top: 2rem;
     padding-left: 20px;
     overflow: hidden;
+}
+
+/* border radius set to 12px to have curved edges */
+#explore {
+    background-color: #dd0000;
+    border-radius: 12px;
+    color: #ffffff;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 150px;
+}
+
+/* border radius set to 0px to have pointed edges */
+#learn-more {
+    background-color: #dd0000;
+    border-radius: 0px;
+    color: #ffffff;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 150px;
+}
+
+footer {
+    background-color: #dd0000;
+    color: #ffffff;
+    width: auto;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 45% 45% 45%;
+    height: 10vh;
 }
