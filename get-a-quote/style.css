@@ -67,7 +67,8 @@ html {
   
   .contact-form {
     padding: 30px;
-    background-color: goldenrod;
+    background-color: #262626;
+    color: #ffffff;
     width: 600px;
     margin: 0px auto;
   }
