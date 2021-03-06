@@ -12,6 +12,10 @@ html {
     background-color: blue;
 }
 
+.header-content {
+  display: flex;
+}
+
 #nav {
     list-style-type: none;
     margin: 0px;
