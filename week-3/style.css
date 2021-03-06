@@ -104,13 +104,6 @@ margin left to add padding between images */
   padding-top: 50px;
   margin: 0 1rem;
 }
-
-/* used all tag to show media is being used for all screens */
-@media all and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
-
   .wrapper {
     width: 100%;
   }
@@ -120,6 +113,14 @@ margin left to add padding between images */
   }
 
   .footer-text {
+    width: 100%;
+  }
+}
+
+/* used all tag to show media is being used for all screens */
+/* media always be at the END of CSS to be able to over right all all code */
+@media all and (max-width: 500px) {
+  .column {
     width: 100%;
   }
 }
