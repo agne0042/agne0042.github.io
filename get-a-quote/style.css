@@ -1,3 +1,6 @@
+/* #id .class none element */
+/* css for get a quote */
+
 html {
     font-family: 'Lato', sans-serif;
 }
@@ -99,11 +102,11 @@ html {
 footer {
     background-color: #dd0000;
     color: #ffffff;
-    width: auto;
+    width: 100%;
     padding-left: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: grid;
-    grid-template-columns: 45% 45% 45%;
-    height: 10vh;
+    grid-template-columns: 50% 50%;
+    height: 20vh;
 }
