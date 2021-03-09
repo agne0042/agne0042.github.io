@@ -9,6 +9,11 @@ html {
     background-color: blue;
 }
 
+.display-flex {
+    display: inline;
+    background-color: #dd0000;
+}
+
 #nav {
     list-style-type: none;
     margin: 0px;
