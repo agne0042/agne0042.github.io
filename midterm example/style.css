@@ -2,24 +2,21 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
-/* color used to make seach button white, font size small to make seach buttion smaller */
+/* IMPORTANT remove background color once <header> has background color */
 .icon {
     color: #ffffff;
-    font-size: small;
+    font-size: medium;
+    background-color: blue;
 }
 
 .header-content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
-/* site header targets "industrial painter and slogan, 
-text color set to white to change both site name and slogan, 
-flex direction column use to stack name and slogan on top of eachother */
 .site-name {
     flex-direction: column;
-    color: #ffffff;
 }
 
 .display-flex {
@@ -39,7 +36,7 @@ justify-self: end;
     padding-left: 10px;
 }
 
-/*overflow hidden added to keep content in the begie area with all screen sizes */
+/*overflow hidden add to keep content the begie area with all screen sizes */
 .nav-link {
     display: inline;
     color: #262626;
