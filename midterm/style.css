@@ -1,3 +1,4 @@
+/* font family for every page */
 html {
     font-family: 'Lato', sans-serif;
 }
@@ -8,6 +9,9 @@ html {
     font-size: small;
 }
 
+/* display set to flex,
+flex direction row to display in a row, 
+justift content space between to evenly  */
 .header-content {
     display: flex;
     flex-direction: row;
@@ -29,7 +33,7 @@ flex direction column use to stack name and slogan on top of eachother */
 form {
 justify-self: end;
 }
-
+/* nav, nav link used for all pages */
 #nav {
     list-style-type: none;
     margin: 0px;
@@ -52,7 +56,8 @@ justify-self: end;
     overflow: hidden;
 }
 
-/* border radius set to 12px to have curved edges */
+/* button explore for welcome to IP,
+border radius set to 12px to have curved edges */
 #explore {
     background-color: #dd0000;
     border-radius: 12px;
@@ -67,7 +72,8 @@ justify-self: end;
     width: 150px;
 }
 
-/* border radius set to 0px to have pointed edges */
+/* button learn more for learn more about our bussiness
+border radius set to 0px to have pointed edges */
 #learn-more {
     background-color: #dd0000;
     border-radius: 0px;
@@ -82,6 +88,7 @@ justify-self: end;
     width: 150px;
 }
 
+/* footer used for all pages */
 footer {
     background-color: #dd0000;
     color: #ffffff;
@@ -92,4 +99,19 @@ footer {
     display: grid;
     grid-template-columns: 45% 45% 45%;
     height: 10vh;
+}
+
+/* get a quote page css */
+
+
+
+/* about page css */
+
+.about-header {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.about-paragraph {
+    font-size: 1.5rem;
 }
