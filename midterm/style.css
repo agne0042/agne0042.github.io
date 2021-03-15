@@ -26,6 +26,10 @@ flex direction column use to stack name and slogan on top of eachother */
     color: #ffffff;
 }
 
+.display-flex {
+    background-color: #dd0000;
+}
+
 form {
 justify-self: end;
 }
