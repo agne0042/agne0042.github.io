@@ -85,7 +85,7 @@ padding add to give space between left side and paragraph text */
 /* learn about us color text and background color */
 .learn-about-us {
     color: #262626;
-    background-color:#E2D2C2 ;
+    background-color: #E2D2C2;
 }
 
 /* learn h1 learn about us,
@@ -128,16 +128,40 @@ border radius set to 0px to have pointed edges */
 }
 
 /* footer used for all pages */
+/* footer content */
 footer {
     background-color: #dd0000;
     color: #ffffff;
-    width: auto;
+    width: 100%;
     padding-left: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: grid;
-    grid-template-columns: 45% 45% 45%;
+    grid-template-columns: 25% 33.33% 25%;
     height: 10vh;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.column {
+    padding: 2px;
+    padding-top: 50px;
+    margin: 0 1rem;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+#apply-now-contact {
+    width: 100%;
+}
+
+.footer-text {
+    width: 100%;
 }
 
 /* get a quote page css */

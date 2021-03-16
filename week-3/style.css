@@ -117,7 +117,7 @@ margin left to add padding between images */
   }
 
 /* used all tag to show media is being used for all screens */
-/* media always be at the END of CSS to be able to over right all code */
+/* media always be at the END of CSS to be able to over right allcode */
 @media all and (max-width: 500px) {
   .column {
     width: 100%;
