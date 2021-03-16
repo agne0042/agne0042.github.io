@@ -35,8 +35,9 @@ flex direction column use to stack name and slogan on top of eachother */
 }
 
 form {
-justify-self: end;
+    justify-self: end;
 }
+
 /* nav, nav link used for all pages */
 #nav {
     list-style-type: none;
@@ -58,6 +59,40 @@ justify-self: end;
     margin-top: 2rem;
     padding-left: 20px;
     overflow: hidden;
+}
+
+/* color changed to white to be visbale,
+background color applied to h1 and paragraph */
+.welcome-to-ip {
+    color: #ffffff;
+    background-color: #262626;
+}
+
+/* welcome h1 welcome to IP,
+padding add to give space between left side and paragraph text */
+.welcome {
+    padding-left: 1rem;
+    font-size: 3rem;
+}
+
+/* welcome p, 
+padding add to give space between left side and paragraph text */
+.welcome-p {
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+
+/* learn about us color text and background color */
+.learn-about-us {
+    color: #262626;
+    background-color:#E2D2C2 ;
+}
+
+/* learn h1 learn about us,
+padding add to give space between left side and paragraph text */
+.learn {
+    padding-left: 1rem;
+    font-size: 3rem;
 }
 
 /* button explore for welcome to IP,
@@ -110,36 +145,36 @@ footer {
 /* padding used for space between sections exaple space between name and email,
 background color changed to Rich Black FOGRA 29*/
 .contact-form-section {
-  padding: 10px;
-  background-color: #262626;
-  width: 700px;
-  margin: 0px auto;
+    padding: 10px;
+    background-color: #262626;
+    width: 700px;
+    margin: 0px auto;
 }
 
 /* label used to edit text size and color */
 label {
     color: #ffffff;
     font-size: 1.5rem;
-  }
+}
 
-  /* contact form input used for text input */
-  .contact-form-input {
+/* contact form input used for text input */
+.contact-form-input {
     padding: 10px;
     width: 95%;
-  }
+}
 
-  /* contact form used to add padding to add space between top paragraph
+/* contact form used to add padding to add space between top paragraph
   and bottom footer */
-  .contact-form {
+.contact-form {
     border-radius: 10px;
     padding: 20px;
-  }
+}
 
-  /* button for get a quote,
+/* button for get a quote,
   text align center to center text inside,
   font size to change font size of the button to match label text,
   border radius set to 4px to slightly round edges */
-  #submit-quote {
+#submit-quote {
     background-color: #dd0000;
     border: none;
     color: #ffffff;
@@ -151,7 +186,7 @@ label {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
-  }
+}
 
 /* about page css */
 
