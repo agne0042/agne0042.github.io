@@ -20,6 +20,7 @@ justift content space between to evenly  */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /* site header targets "industrial painter and slogan, 
@@ -35,6 +36,7 @@ flex direction column use to stack name and slogan on top of eachother */
 }
 
 form {
+    margin: 0 auto;
     justify-self: end;
 }
 
@@ -66,6 +68,8 @@ background color applied to h1 and paragraph */
 .welcome-to-ip {
     color: #ffffff;
     background-color: #262626;
+    display: flex;
+    flex-direction: column;
 }
 
 /* welcome h1 welcome to IP,
@@ -222,3 +226,5 @@ label {
 .about-paragraph {
     font-size: 1.5rem;
 }
+
+@media screen and (min-width) 
