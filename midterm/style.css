@@ -1,3 +1,7 @@
+/* # id
+   . class
+   none element */
+
 /* font family for every page */
 html {
     font-family: 'Lato', sans-serif;
@@ -103,7 +107,51 @@ footer {
 
 /* get a quote page css */
 
+/* padding used for space between sections exaple space between name and email,
+background color changed to Rich Black FOGRA 29*/
+.contact-form-section {
+  padding: 10px;
+  background-color: #262626;
+  width: 700px;
+  margin: 0px auto;
+}
 
+/* label used to edit text size and color */
+label {
+    color: #ffffff;
+    font-size: 1.5rem;
+  }
+
+  /* contact form input used for text input */
+  .contact-form-input {
+    padding: 10px;
+    width: 95%;
+  }
+
+  /* contact form used to add padding to add space between top paragraph
+  and bottom footer */
+  .contact-form {
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  /* button for get a quote,
+  text align center to center text inside,
+  font size to change font size of the button to match label text,
+  border radius set to 4px to slightly round edges */
+  #submit-quote {
+    background-color: #dd0000;
+    border: none;
+    color: #ffffff;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
 
 /* about page css */
 
