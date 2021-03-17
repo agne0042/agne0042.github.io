@@ -122,6 +122,12 @@ border radius set to 12px to have curved edges */
     width: 150px;
 }
 
+#explore {
+    transition: 0.3;
+    background-color: yellow;
+    transition-duration: 0.20s;
+}
+
 /* button learn more for learn more about our bussiness
 border radius set to 0px to have pointed edges */
 #learn-more {
@@ -141,6 +147,9 @@ border radius set to 0px to have pointed edges */
 /* display flex to set images in a row */
 .painting-row {
     display: flex;
+    transform: rotateX(3turn);
+    transition: 0.3s;
+
 }
 
 /* flex 33.33% to have even space between three images */
@@ -279,6 +288,26 @@ height 100px will display little below form */
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+/* animation for submit quote button */
+@keyframes jump {
+    50% {
+      transform: translate(0, -200px);
+      
+    }
+  }
+
+#submit-quote:hover {
+    animation-name: jump;
+    animation-duration: 5s;
+    animation-name: swing;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in-out;
 }
 
 /* about page css */
