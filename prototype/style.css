@@ -122,12 +122,6 @@ border radius set to 12px to have curved edges */
     width: 150px;
 }
 
-#explore {
-    transition: 0.3;
-    background-color: yellow;
-    transition-duration: 0.20s;
-}
-
 /* button learn more for learn more about our bussiness
 border radius set to 0px to have pointed edges */
 #learn-more {
