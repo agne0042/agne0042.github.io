@@ -208,6 +208,18 @@ footer {
     height: 50vh;
 }
 
+/* header get a quote centered and font size changed to 3.5rem */
+.quote {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+/* quote paragraph set to 1.5 rem, 
+default staying to the left side */
+.quote-paragraph {
+    font-size: 1.5rem;
+}
+
 
 /* padding used for space between sections exaple space between name and email,
 background color changed to Rich Black FOGRA 29*/
