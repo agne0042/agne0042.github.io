@@ -38,7 +38,6 @@ flex direction column use to stack name and slogan on top of eachother */
 /* margin form to have search bar centered when mobile size applied */
 form {
     margin: 0 auto;
-    justify-self: end;
 }
 
 /* nav, nav link used for all pages */
@@ -87,10 +86,17 @@ padding add to give space between left side and paragraph text */
     font-size: 2rem;
 }
 
+.welcome-img {
+    width: 50%;
+    height: fit-content;
+}
+
 /* learn about us color text and background color */
 .learn-about-us {
     color: #262626;
     background-color: #E2D2C2;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* learn h1 learn about us,
@@ -132,6 +138,39 @@ border radius set to 0px to have pointed edges */
     width: 150px;
 }
 
+/* display flex to set images in a row */
+.painting-row {
+    display: flex;
+}
+
+/* flex 33.33% to have even space between three images */
+.column-p {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+/* class painting price for interior, exterior, and commercial painging pricing
+all classed the same to have equal height */
+.painting-price {
+    height: 20rem;
+}
+
+/* font weright to change title to bold text */
+.title {
+    background-color: #E2D2C2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+/* background color for 1hr CA $29.99, 
+added background color to add emphasis to pricing */
+.price {
+    background-color: #E2D2C2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* footer used for all pages */
 /* footer content */
 footer {
@@ -146,6 +185,7 @@ footer {
     height: 10vh;
 }
 
+/* display flex to order content in a row */
 .row {
     display: flex;
     justify-content: flex-end;
@@ -161,15 +201,13 @@ footer {
     width: 100%;
 }
 
-#apply-now-contact {
-    width: 100%;
-}
-
-.footer-text {
-    width: 100%;
-}
-
 /* get a quote page css */
+
+.quote-img {
+    width: 100%;
+    height: 50vh;
+}
+
 
 /* padding used for space between sections exaple space between name and email,
 background color changed to Rich Black FOGRA 29*/
@@ -199,6 +237,14 @@ label {
     padding: 20px;
 }
 
+/* div container for submit quote button,
+possition relative to have submit button center on page,
+height 100px will display little below form */
+.container {
+    height: 100px;
+    position: relative;
+}
+
 /* button for get a quote,
   text align center to center text inside,
   font size to change font size of the button to match label text,
@@ -215,9 +261,27 @@ label {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 /* about page css */
+
+.about-img {
+    width: 100%;
+    height: 50vh;
+}
+
+.about-text {
+    background-color: #E2D2C2;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
 
 .about-header {
     font-size: 3.5rem;
@@ -228,11 +292,26 @@ label {
     font-size: 1.5rem;
 }
 
+/* media query section  */
+
 @media screen and (min-width:650px) {
     .welcome-to-ip {
         flex-direction: row;
     }
+
     .welcome-to-ip img {
         width: 50%;
+    }
+
+    .welcome-img {
+        width: 100%;
+    }
+}
+
+/* used media screen to make max width 500px for nav link to fit 
+        when used on mobile */
+@media screen and (max-width:500px) {
+    .nav-link {
+        display: block;
     }
 }

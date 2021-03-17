@@ -52,17 +52,18 @@
     </nav>
     <!-- welcome to IP content -->
     <div class="welcome-to-ip">
-        <img src="images/homepage.jpg" alt="paint-roller" width="100%" height="100%">
+        <img class="welcome-img" src="images/homepage.jpg" alt="paint-roller" width="100%" height="100%">
         <!-- made own div for h1, p, and button to wrap search bar when in mobile -->
         <div class="wrapper">
-        <h1 class="welcome">Welcome to Industrial Painter</h1>
-        <p class="welcome-p">Industrial Painter has been around since 1972, we are a nationwide residential and
-            commercial painting contractor. We have a team of specialists both crew and management
-            providing quality painting to a number of different services. Such as industrial painting,
-            factory, commercial, institutional, agricultural, government, and architectural.</p>
-        <button id="explore" type="submit">EXPLORE</button>
+            <h1 class="welcome">Welcome to Industrial Painter</h1>
+            <p class="welcome-p">Industrial Painter has been around since 1972, we are a nationwide residential and
+                commercial painting contractor. We have a team of specialists both crew and management
+                providing quality painting to a number of different services. Such as industrial painting,
+                factory, commercial, institutional, agricultural, government, and architectural.</p>
+            <button id="explore" type="submit">EXPLORE</button>
         </div>
     </div>
+
     <!-- learn about us content -->
     <div class="learn-about-us">
         <h1 class="learn">Learn About Out Bussiness</h1>
@@ -72,25 +73,26 @@
             business has to offer for you.</p>
         <button id="learn-more" type="submit">LEARN MORE</button>
     </div>
-    <br><br>
+    <br>
+
     <!-- paint pricing content -->
-    <div class="interior">
-        <img src="images/interior.jpg" alt="man painting interior" width="150" height="200">
-        <p class="interior-house">Interior House Painting</p>
-        <p class="price">1hr CA $29.99</p>
-    </div>
-
-    <div class="exterior">
-        <img src="images/exterior.jpg" alt="man painting exterior" width="150" height="200">
-        <p class="exterior-house">Exterior House Painting</p>
-        <p class="price">1hr CA $29.99</p>
-    </div>
-
-    <div class="commerical">
-        <img src="images/commerical.jpg" alt="paint roller" width="150" height="200">
-        <p class="commerical">Commerical Painting</p>
-        <p class="price">1hr CA $29.99</p>
-    </div>
+    <div class="painting-row">
+        <div class="column-p">
+          <img class="painting-price" src="images/interior.jpg" alt="Man painting house interior" style="width:100%">
+          <p class="title">Interior House Painting</p>
+          <p class="price">1hr CA $29.99</p>
+        </div>
+        <div class="column-p">
+          <img class="painting-price" src="images/exterior.jpg" alt="Man holding hardhat" style="width:100%">
+          <p class="title"> Exterior House Painting</p>
+          <p class="price">1hr CA $29.99</p>
+        </div>
+        <div class="column-p">
+          <img class="painting-price" src="images/commerical.jpg" alt="Paint roller" style="width:100%">
+          <p class="title">Commercial Painting</p>
+          <p class="price">1hr CA $29.99</p>
+        </div>
+      </div>
 
     <!-- footer content -->
     <!-- created individual div for each image to be able to target each in CSS-->
