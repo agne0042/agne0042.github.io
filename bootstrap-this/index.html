@@ -22,12 +22,14 @@
     <!-- class text info to have light blue text -->
     <p class="text-info">Learning new componenets to help your web deveolpment skills!</p>
   </div>
-    <!-- heading and introductions to page end -->
+  <!-- heading and introductions to page end -->
 
   <!-- nav bar start -->
   <!-- nav class bg-dark to navbar-dark to create dark theme,
   nav bar expand md nav bar will expand at medium screen size -->
-    <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+  <nav class="navbar bg-dark navbar-dark navbar-expand-md">
+    <!-- container fluid to have small amount of space bewteen screen boarder and home -->
+    <div class="container-fluid">
       <!-- ul unordered list -->
       <ul class="navbar-nav">
         <!-- li litem in list -->
@@ -36,16 +38,33 @@
         <li class="nav-item"><a class=" nav-link" href="#">Docs</a></li>
         <li class="nav-item"><a class=" nav-link" href="#">Examples</a></li>
       </ul>
-    </nav>
+    </div>
+  </nav>
   <!-- nav bar end -->
+
+  <div class="jumbotron container-fluid">
+    <h2>What is Bootstrap</h2>
+    <p class="text-left">
+      Bootstrap is a framework that helps you to create responsive websites. Responsive means that when the
+      size of the screen changes, example web 1280x800px and IPhone 12 Pro mobile 428x926px. With the html
+      being responsive the content will look nice at both sizes of the screen. Bootstrap has to be incorporate
+      into your html file, this can be done one of two ways. First it can be imported into your code by
+      downloading and linking it locally to your code. Second way is to link it from the Bootstrap website on
+      your browser, copy the code from the website and add it within your head tags.
+    </p>
+  </div>
 
   <!-- container to set a max width at different screen sizes -->
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
-            <h2>London</h2>
-            <p>London is the most populous city in the United Kingdom,
-          with a metropolitan area of over 13 million inhabitants.</p>
+            <h2 class=".text-warning">Colors</h2>
+            <p>Bootstrap colors can be used in a few different ways, background, text, links, and
+          componenets. Each serving a different purpose to your page. Text colorize the text on the
+          page using "text" followed by a dash and the color's name. An example of this is
+          text-primary for blue, text-secondary is grey, text-success is green, etc. when used
+          as a class it will change the color of the text within that class.
+        </p>
       </div>
       <div class="col-sm-4">
             <h2>Paris</h2>
@@ -59,6 +78,20 @@
       </div>
     </div>
   </div>
+
+  <!-- card start -->
+  <div class="card container-fluid" style="width: 18rem;">
+    <div class="card-body">
+      <h4 class="card-title">Want to lean more about using Bootstrap</h4>
+      <p class="card-text">
+        Bootstrap has so many more useful compents, this is only
+        the tip of the iceberg
+      </p>
+      <!-- btn info to make the button the same light blue as the top text on the page -->
+      <a href="#" class="btn btn-info btn-lg">Learn More</a>
+    </div>
+  </div>
+  <!-- card end -->
 
   <!-- Optional JavaScript; choose one of the two! -->
 
