@@ -27,6 +27,6 @@ space between to have space between each set of content in the header */
     font-size: small;
 }
 /* display flex tagarted and background color changed to red for the header */
-.display-flex {
+.display-flex-header {
     background-color: #932f1d;
 }
