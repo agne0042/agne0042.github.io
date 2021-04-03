@@ -9,6 +9,7 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
+/* header start */
 /* display flex flex direction row to have content display in a single row when on desktop,
 space between to have space between each set of content in the header */
 .header-content {
@@ -33,11 +34,17 @@ space between to have space between each set of content in the header */
     background-color: #932f1d;
 }
 
-/* slogan homepage */
+/* header end */
+
+/* slogan homepage start*/
+/* text algin used to center text at all screen sizes */
 .slogan {
+    text-align: center;
     background-color: #932f1d;
 }
 
 .slogan-text {
     color: #f4f4f9;
 }
+
+/* slogan homepage end */
