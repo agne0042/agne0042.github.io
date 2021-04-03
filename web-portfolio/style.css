@@ -9,13 +9,15 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
+/* display flex flex direction row to have content display in a single row when on desktop,
+space between to have space between each set of content in the header */
 .header-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
+/* header text color change site title to ghost white */
 .header-text {
     color: #f4f4f9;
 }
@@ -24,7 +26,7 @@ html {
     color: #ffffff;
     font-size: small;
 }
-
+/* display flex tagarted and background color changed to red for the header */
 .display-flex {
     background-color: #932f1d;
 }
