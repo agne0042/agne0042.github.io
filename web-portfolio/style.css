@@ -17,6 +17,7 @@ space between to have space between each set of content in the header */
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 /* header text color change site title to ghost white */
 .header-text {
     color: #f4f4f9;
@@ -26,7 +27,17 @@ space between to have space between each set of content in the header */
     color: #ffffff;
     font-size: small;
 }
+
 /* display flex tagarted and background color changed to red for the header */
 .display-flex-header {
     background-color: #932f1d;
+}
+
+/* slogan homepage */
+.slogan {
+    background-color: #932f1d;
+}
+
+.slogan-text {
+    color: #f4f4f9;
 }
