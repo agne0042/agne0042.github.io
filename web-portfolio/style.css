@@ -8,3 +8,23 @@ black #071013 */
 html {
     font-family: 'Lato', sans-serif;
 }
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-text {
+    color: #f4f4f9;
+}
+
+.icon {
+    color: #ffffff;
+    font-size: small;
+}
+
+.display-flex {
+    background-color: #932f1d;
+}

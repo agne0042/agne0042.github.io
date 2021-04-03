@@ -11,7 +11,7 @@ html {
 
 /* display set to flex,
 flex direction row to display in a row, 
-justift content space between to evenly  */
+justify content space between to evenly  */
 .header-content {
     display: flex;
     flex-direction: row;
