@@ -1,3 +1,10 @@
+/* color palette
+dark blue #586f7c
+ghost white #f4f4f9
+red #931f1d
+black #071013 */
+
+/* font family for every page */
 html {
-    
+    font-family: 'Lato', sans-serif;
 }
