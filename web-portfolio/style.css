@@ -46,5 +46,34 @@ space between to have space between each set of content in the header */
 .slogan-text {
     color: #f4f4f9;
 }
-
 /* slogan homepage end */
+
+/* display flex to set images in a row */
+.services-row {
+    display: flex;
+    transform: rotateX(3turn);
+    transition: 0.3s;
+
+}
+
+/* services start */
+/* flex 33.33% to have even space between three images */
+.column-s {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+/* class painting price for interior, exterior, and commercial painging pricing
+all classed the same to have equal height */
+.services-img {
+    height: 20rem;
+}
+
+/* font weright to change title to bold text */
+.services {
+    background-color: #E2D2C2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+/* services end */
