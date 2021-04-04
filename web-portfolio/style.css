@@ -5,8 +5,8 @@ red #931f1d
 black #071013 */
 
 /* font family for every page */
-html {
-    font-family: 'Lato', sans-serif;
+body {
+    font-family: 'Merriweather', serif; 
 }
 
 /* header start */
@@ -25,7 +25,7 @@ space between to have space between each set of content in the header */
 }
 
 .icon {
-    color: #ffffff;
+    color: #f4f4f9;
     font-size: small;
 }
 
@@ -36,11 +36,13 @@ space between to have space between each set of content in the header */
 
 /* header end */
 
-/* slogan homepage start*/
+/* homepage slogan start*/
 /* text algin used to center text at all screen sizes */
 .slogan {
     text-align: center;
     background-color: #932f1d;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .slogan-text {
@@ -51,29 +53,79 @@ space between to have space between each set of content in the header */
 /* display flex to set images in a row */
 .services-row {
     display: flex;
-    transform: rotateX(3turn);
-    transition: 0.3s;
-
 }
 
-/* services start */
+/* homepage services start */
 /* flex 33.33% to have even space between three images */
 .column-s {
     flex: 33.33%;
     padding: 5px;
 }
 
-/* class painting price for interior, exterior, and commercial painging pricing
-all classed the same to have equal height */
+/* height 20rem for photography, editing, videography images */
 .services-img {
     height: 20rem;
 }
 
-/* font weright to change title to bold text */
+/* font weright to change title to bold text
+text centre to have title of each centered in box */
 .services {
-    background-color: #E2D2C2;
+    background-color: #586f7c;
+    color: #f4f4f9;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-align: center;
     font-weight: bold;
 }
+
+/* only change to services-p from services is no font weight
+padding left and padding right to clean up the look of the information */
+.services-p {
+    background-color: #586f7c;
+    color: #f4f4f9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 /* services end */
+
+/* homepage about us start */
+/* about us div class for about us section */
+.about-us {
+    color: #f4f4f9;
+    background-color: #586f7c ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* learn h1 learn about us,
+padding add to give space between left side and paragraph text */
+.learn {
+    color: #f4f4f9;
+    padding-left: 1rem;
+    font-size: 3rem;
+}
+
+/* button learn more for learn more about our services
+border radius set to 0px to have pointed edges */
+#learn-more {
+    background-color: #931f1d;
+    border-radius: 0px;
+    color: #f4f4f9;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 150px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+/* homepage about us end  */
+
+/* QUESTIONS
+homepage:
+-how to get the font family for all the text
+-how to get lean more button in the center and on the bottom of text
+-how to get the 3 services to stack on top of each other on smaller screen sizes */
