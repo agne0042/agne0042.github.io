@@ -106,7 +106,6 @@ border radius set to 0px to have pointed edges */
     text-decoration: none;
     display: inline-block;
 }
-
 /* services end */
 
 /* homepage about us start */
@@ -135,13 +134,69 @@ padding add to give space between left side and paragraph text */
 /* homepage end */
 
 /* contact page start */
-.contact-h1 {
+/* location start */
+.location-h2 {
+    color: #586f7c;
+    font-size: 3rem;
+}
+/* location end */
+
+/* contact form start */
+
+/* padding between text */
+.contact-form-section {
+    padding: 10px;
+    background-color: #586f7c;
+    width: 700px;
+    margin: 0px auto;
+}
+
+/* label used to edit text size and color */
+label {
+    color: #071013;
+    font-size: 2rem;
+}
+
+/* contact form input used for text input */
+.contact-form-input {
+    padding: 10px;
+    width: 95%;
+}
+
+/* contact form used to add padding to add space between top paragraph
+  and bottom footer */
+.contact-form {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* contact form button */
+#submit-message {
+    background-color: #931f1d;
+    border: none;
+    color: #f4f4f9;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+/* contact form end */
+
+/* photography services start */
+.photo-h1 {
     color: #586f7c;
     text-align: center;
     font-size: 4rem;
 }
-
-/* contact page end */
+/* photography services end */
 
 /* all pages footer start */
 footer {
