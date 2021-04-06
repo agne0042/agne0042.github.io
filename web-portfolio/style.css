@@ -6,7 +6,7 @@ black #071013 */
 
 /* font family for every page */
 body {
-    font-family: 'Merriweather', serif; 
+    font-family: 'Merriweather', serif;
 }
 
 /* header start */
@@ -48,6 +48,7 @@ space between to have space between each set of content in the header */
 .slogan-text {
     color: #f4f4f9;
 }
+
 /* slogan homepage end */
 
 /* display flex to set images in a row */
@@ -104,13 +105,14 @@ border radius set to 0px to have pointed edges */
     text-decoration: none;
     display: inline-block;
 }
+
 /* services end */
 
 /* homepage about us start */
 /* about us div class for about us section */
 .about-us {
     color: #f4f4f9;
-    background-color: #586f7c ;
+    background-color: #586f7c;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -127,7 +129,40 @@ padding add to give space between left side and paragraph text */
 .about-p {
     padding-left: 10px;
 }
+
 /* homepage about us end  */
+
+/* all pages footer start */
+footer {
+    background-color: #931f1d;
+    color: #f4f4f9;
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    height: 10vh;
+}
+
+/* display flex to order content in a row */
+.row {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.column {
+    display: flex;
+    padding: 2px;
+    padding-top: 50px;
+    margin: 0 1rem;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+/* all pages footer end  */
 
 /* QUESTIONS
 homepage:
