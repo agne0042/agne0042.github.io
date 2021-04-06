@@ -141,7 +141,7 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     display: grid;
-    grid-template-columns: 20% 20% 60%;
+    grid-template-columns: 25% 33.33% 25%;
     height: 10vh;
 }
 
@@ -152,7 +152,6 @@ footer {
 }
 
 .column {
-    display: flex;
     padding: 2px;
     padding-top: 50px;
     margin: 0 1rem;
@@ -161,7 +160,6 @@ footer {
 .wrapper {
     width: 100%;
 }
-
 /* all pages footer end  */
 
 /* QUESTIONS
