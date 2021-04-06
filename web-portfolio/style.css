@@ -9,7 +9,7 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-/* header start */
+/* all pages header start */
 /* display flex flex direction row to have content display in a single row when on desktop,
 space between to have space between each set of content in the header */
 .header-content {
@@ -34,8 +34,9 @@ space between to have space between each set of content in the header */
     background-color: #932f1d;
 }
 
-/* header end */
+/* all pages header start */
 
+/* homapage start */
 /* homepage slogan start*/
 /* text algin used to center text at all screen sizes */
 .slogan {
@@ -131,6 +132,16 @@ padding add to give space between left side and paragraph text */
 }
 
 /* homepage about us end  */
+/* homepage end */
+
+/* contact page start */
+.contact-h1 {
+    color: #586f7c;
+    text-align: center;
+    font-size: 4rem;
+}
+
+/* contact page end */
 
 /* all pages footer start */
 footer {
@@ -160,7 +171,8 @@ footer {
 .wrapper {
     width: 100%;
 }
-/* all pages footer end  */
+
+/* all pages footer end */
 
 /* QUESTIONS
 homepage:
