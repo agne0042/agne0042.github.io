@@ -134,13 +134,69 @@ padding add to give space between left side and paragraph text */
 /* homepage about us end  */
 /* homepage end */
 
-/* contact page start */
-/* location start */
-.location-h2 {
+/* photography services start */
+.photo-h1 {
     color: #586f7c;
-    font-size: 3rem;
+    text-align: center;
+    font-size: 4rem;
 }
 
+.services-row {
+    display: flex;
+}
+
+/* homepage services start */
+/* flex 33.33% to have even space between three images */
+.column-s {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+/* height 20rem for photography, editing, videography images */
+.services-img {
+    height: 20rem;
+}
+
+/* font weright to change title to bold text
+text centre to have title of each centered in box */
+.services {
+    background-color: #586f7c;
+    color: #f4f4f9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* only change to services-p from services is no font weight
+padding left and padding right to clean up the look of the information */
+.services-p {
+    background-color: #586f7c;
+    color: #f4f4f9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* photography services end */
+
+/* 000000000000000 */
+/* get in contact page start */
+/* location start */
+
+/* contact h1 and location h1 same color, text akgin center */
+.contact-h1 {
+    color: #586f7c;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.location-h1 {
+    color: #586f7c;
+    text-align: center;
+    font-size: 4rem;
+}
 /* location end */
 
 /* contact form start */
@@ -190,55 +246,8 @@ label {
     top: 50%;
     left: 50%;
 }
-
 /* contact form end */
-
-/* photography services start */
-.photo-h1 {
-    color: #586f7c;
-    text-align: center;
-    font-size: 4rem;
-}
-
-.services-row {
-    display: flex;
-}
-
-/* homepage services start */
-/* flex 33.33% to have even space between three images */
-.column-s {
-    flex: 33.33%;
-    padding: 5px;
-}
-
-/* height 20rem for photography, editing, videography images */
-.services-img {
-    height: 20rem;
-}
-
-/* font weright to change title to bold text
-text centre to have title of each centered in box */
-.services {
-    background-color: #586f7c;
-    color: #f4f4f9;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    font-weight: bold;
-}
-
-/* only change to services-p from services is no font weight
-padding left and padding right to clean up the look of the information */
-.services-p {
-    background-color: #586f7c;
-    color: #f4f4f9;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-/* photography services end */
+/* get in contact page end */
 
 /* all pages footer start */
 footer {
