@@ -4,9 +4,17 @@ ghost white #f4f4f9
 red #931f1d
 black #071013 */
 
+/* # id
+. class
+none element */
+
 /* font family for every page */
 body {
     font-family: 'Merriweather', serif;
+}
+
+#h1 {
+    font-family: 'Lato', sans-serif;
 }
 
 /* all pages header start */
@@ -39,6 +47,14 @@ space between to have space between each set of content in the header */
 /* homapage start */
 /* homepage slogan start*/
 /* text algin used to center text at all screen sizes */
+
+/* width and height 100% to have image fill page when screen
+size changes */
+.top-image {
+    width:100%;
+    height: 100%;
+}
+
 .slogan {
     text-align: center;
     background-color: #932f1d;
