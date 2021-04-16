@@ -185,7 +185,7 @@ padding left and padding right to clean up the look of the information */
 /* get in contact page start */
 /* location start */
 
-/* contact h1 and location h1 same color, text akgin center */
+/* contact h1 and location h same color, text akgin center */
 .contact-h1 {
     color: #586f7c;
     text-align: center;
@@ -197,6 +197,7 @@ padding left and padding right to clean up the look of the information */
     text-align: center;
     font-size: 4rem;
 }
+
 /* location end */
 
 /* contact form start */
@@ -246,6 +247,14 @@ label {
     top: 50%;
     left: 50%;
 }
+
+#submit-contact {
+    background-color: #931f1d;
+    border: none;
+    color: #f4f4f9;
+    padding: 15px 50px;
+}
+
 /* contact form end */
 /* get in contact page end */
 
