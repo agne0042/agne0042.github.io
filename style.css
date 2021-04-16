@@ -51,7 +51,7 @@ space between to have space between each set of content in the header */
 /* width and height 100% to have image fill page when screen
 size changes */
 .top-image {
-    width:100%;
+    width: 100%;
     height: 100%;
 }
 
@@ -82,6 +82,8 @@ size changes */
 
 /* height 20rem for photography, editing, videography images */
 .services-img {
+    width: 100%;
+    height: 100%;
     height: 20rem;
 }
 
@@ -109,7 +111,21 @@ padding left and padding right to clean up the look of the information */
 
 /* button learn more for services about our services
 border radius set to 0px to have pointed edges */
-#learn-more {
+#learn-more-editing {
+    background-color: #931f1d;
+    border-radius: 0px;
+    color: #f4f4f9;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 150px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#learn-more-video {
     background-color: #931f1d;
     border-radius: 0px;
     color: #f4f4f9;
@@ -197,21 +213,25 @@ padding left and padding right to clean up the look of the information */
 
 /* photography services end */
 
-/* 000000000000000 */
 /* get in contact page start */
 /* location start */
 
 /* contact h1 and location h same color, text akgin center */
-.contact-h1 {
+.location {
     color: #586f7c;
     text-align: center;
     font-size: 5rem;
 }
 
-.location-h1 {
+.location-heading-2 {
     color: #586f7c;
     text-align: center;
     font-size: 4rem;
+}
+
+.location-map {
+    height: 45vh ;
+    width: 100%;
 }
 
 /* location end */
