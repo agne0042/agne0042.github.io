@@ -110,8 +110,9 @@ padding left and padding right to clean up the look of the information */
 }
 
 /* button learn more for services about our services
-border radius set to 0px to have pointed edges */
-#learn-more-editing {
+border radius set to 0px to have pointed edges,
+all buttons have the same class of explore to style the same */
+.explore {
     background-color: #931f1d;
     border-radius: 0px;
     color: #f4f4f9;
@@ -125,19 +126,6 @@ border radius set to 0px to have pointed edges */
     display: inline-block;
 }
 
-#learn-more-video {
-    background-color: #931f1d;
-    border-radius: 0px;
-    color: #f4f4f9;
-    font-size: 15px;
-    margin: 4px 2px;
-    cursor: pointer;
-    width: 150px;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
 
 /* services end */
 
@@ -297,7 +285,7 @@ label {
 /* all pages footer start */
 footer {
     background-color: #931f1d;
-    color: #f4f4f9;
+    color:#f4f4f9;
     width: 100%;
     padding-left: 50px;
     padding-top: 10px;
@@ -306,6 +294,7 @@ footer {
     grid-template-columns: 25% 33.33% 25%;
     height: 10vh;
 }
+  
 
 /* display flex to order content in a row */
 .row {
@@ -322,8 +311,9 @@ footer {
 .wrapper {
     width: 100%;
 }
-
 /* all pages footer end */
+
+
 
 /* QUESTIONS
 homepage:
