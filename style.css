@@ -116,7 +116,6 @@ all buttons have the same class of explore to style the same */
     display: inline-block;
 }
 
-
 /* services end */
 
 /* homepage about us start */
@@ -198,6 +197,12 @@ padding left and padding right to clean up the look of the information */
     color: #586f7c;
     text-align: center;
     font-size: 4rem;
+}
+
+/* camera photo  */
+.contact-img {
+    height: 45vh;
+    width: 100%;
 }
 
 /* contact h1 and location h same color, text akgin center */
@@ -307,4 +312,14 @@ footer {
 .wrapper {
     width: 100%;
 }
+
 /* all pages footer end */
+
+/* media start */
+
+@media screen and (min-width:650px) {
+    .contact-img {
+        width: fit-content;
+        height: fit-content;
+    }
+}
